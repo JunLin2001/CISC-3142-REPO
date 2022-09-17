@@ -1,0 +1,14 @@
+all: Lab2-1.5 Lab2-1.11 Lab2-11v2
+
+Lab2-1.5:ex1.5.cc 
+	g++ -o ex1.5 ex1.5.cc
+	./ex1.5 
+	10 10
+Lab2-1.11:ex1.11.cc 
+	g++ -o ex1.11 ex1.11.cc
+	./ex1.11 
+	15 10
+Lab2-1.11v2:ex1.11v2.cc 
+	g++ -o ex1.11v2 ex1.11v2.cc
+	./ex1.11v2 
+	12 10
