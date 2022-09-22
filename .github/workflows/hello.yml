@@ -2,7 +2,7 @@ name: Hello World
 on: [push]
 jobs: 
   HelloWorld:
-  uses: ubuntu-latest
+  runs-on: windows-latest
   steps:
       - run: echo "Running makefile"
       - name: create prog
