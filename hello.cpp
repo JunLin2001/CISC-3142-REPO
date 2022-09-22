@@ -1,5 +1,5 @@
 #include <iostream>
 int main() {
-stdu::cout <<"HELLO WORLD\n"<<;std::endl;
+std::cout <<"HELLO WORLD\n"<<;
 return 0;
 }
