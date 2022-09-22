@@ -7,5 +7,4 @@ jobs:
       - run: echo "Running makefile"
       - name: create prog
         run: g++ hello.cpp
-        uses: https://github.com/JunLin2001/CISC-3142-REPO/blob/main/hello.cpp
       - run: ./a.out
