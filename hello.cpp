@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
 int main() {
-printf("HELLO WORLD\n");
+stdu::cout <<"HELLO WORLD\n"<<;std::endl;
+return 0;
 }
