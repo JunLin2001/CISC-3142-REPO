@@ -18,7 +18,7 @@ text.push_back(words)
 
 for (string &s : text) {
 
-    s= :: toupper(s);
+    s=toupper(s);
 
     cout << s << endl;
 
