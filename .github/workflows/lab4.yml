@@ -22,3 +22,30 @@ jobs:
       - name: create progs
         run: g++ -o p1 Pratice1.cpp
       - run: ./p1
+Run3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: echo "Running makefile"
+      - name: create progs
+        run: g++ -o e3.17 Excercise3.17.cpp
+      - run: ./e3.17
+Run4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: echo "Running makefile"
+      - name: create progs
+        run: g++ -o e3.23 Excercise3.23.cpp
+      - run: ./e3.23
+Run5:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: echo "Running makefile"
+      - name: create progs
+        run: g++ -o e4.28 Excercise4.28.cpp
+      - run: ./e4.28
