@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          paths: Lab4
+          path: Lab4
       - run: echo "Running makefile"
       - name: create progs
         run: g++ -o ex3.17 Excercise3.17.cpp
