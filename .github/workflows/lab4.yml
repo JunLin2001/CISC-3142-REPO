@@ -4,7 +4,7 @@ jobs:
   RunLab4:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: echo "Running makefile"
       - name: create progs
         run: g++ -o ex3.17 Excercise3.17.cpp
