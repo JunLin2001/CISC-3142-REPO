@@ -7,6 +7,6 @@ double proportion2kill = amount2killmouse/(double)massofmouse;
 double amount2killperson = massofperson*proportion2kill;
 int massofcan = 350; 
 double max = amount2killperson/massofcan; 
-    std::cout << "Max Amount a person can drink is "<< max << " bottles" << std::endl ;
+    std::cout << "Max Amount a person can drink is "<< max << " bottles " << std::endl ;
 return 0;
 }
