@@ -9,11 +9,3 @@ jobs:
       - name: create progs
         run: g++ -o ex3.17 Excercise3.17.cpp
       - run: ./ex3.17
-        run: g++ -o ex3.23 Excercise3.23.cpp
-      - run: ./ex3.23
-        run: g++ -o ex4.28 Excercise4.28.cpp
-      - run: ./ex4.28
-        run: g++ -o p1 Pratice1.cpp
-      - run: ./p1
-        run: g++ -o p2 Pratice2.cpp
-      - run: ./p2
