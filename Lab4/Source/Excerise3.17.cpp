@@ -13,7 +13,7 @@ int main() {
   for (decltype(v.size()) i = 0; i != v.size(); i++) {
     std::cout << v[i] << '\t';
     if ((i + 1) % 8 == 0)
-      std::cout << std::endl;
+    std::cout << std::endl;
   }
 
   return 0;
