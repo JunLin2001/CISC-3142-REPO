@@ -11,7 +11,7 @@ int years =0;
     std::cin >>price ;
     std::cout <<"please enter rate of inflation"<<std::endl;
     std::cin >>rate;
-    rate = rate/100;
+rate = rate/100;
     std::cout <<"please enter years"<<std::endl;
     std::cin >>years; 
 for (int i=0 ; i <= years ; i++ ) { 

@@ -8,9 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          path: Lab4/
+        uses: actions/checkout@v2
       - run: echo "Running makefile"
       - name: create progs
         run: g++ -o p2 Pratice2.cpp
