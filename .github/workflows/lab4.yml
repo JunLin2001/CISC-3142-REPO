@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          path: CISC-3142-REPO/Lab4
+          path: Lab4
       - run: echo "Running makefile"
       - name: create progs
         run: g++ -o p2 Pratice2.cpp
