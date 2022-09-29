@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          path: Lab4\Source
+          path: Lab4/Source
       - run: echo "Running makefile"
       - name: create progs
         run: g++ -o p2 Pratice2.cpp
