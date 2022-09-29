@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 int main () {
-std::string item;
+    std::string item;
 double rate = 0;
 double price = 0;
 int years =0;
