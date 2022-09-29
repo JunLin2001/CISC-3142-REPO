@@ -16,7 +16,7 @@ rate = rate/100;
     std::cin >>years; 
 for (int i=0 ; i <= years ; i++ ) { 
     price = price + (price * rate) ;
-    std::cout << " price of item after "<< i << " years is "<<price << std::endl;
+    std::cout << "Price of item after "<< i << " years is "<<price << std::endl;
     }
     return 0;
 }
