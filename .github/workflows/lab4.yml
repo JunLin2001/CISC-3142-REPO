@@ -1,11 +1,14 @@
 name: Lab4
-on: push
+on:
+  push:
+    paths:
+      - 'Lab4/**'
 jobs: 
   RunLab4:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: echo "Running makefile"
+      - uses: actions/checkout@v2
+    repository: ''n: echo "Running makefile"
       - name: create progs
         run: g++ -o ex3.17 Excercise3.17.cpp
       - run: ./ex3.17
