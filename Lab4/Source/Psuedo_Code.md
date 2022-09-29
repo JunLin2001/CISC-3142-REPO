@@ -20,7 +20,7 @@ for (string &s : text) {
 
     s=toupper(s);
 
-    cout << s << endl;
+    cout << s <<endl;
 
 } 
 
