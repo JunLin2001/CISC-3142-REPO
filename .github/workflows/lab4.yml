@@ -13,7 +13,6 @@ jobs:
       - name: create progs
         run: g++ -o p2 Pratice2.cpp
       - run: ./p2
-jobs2: 
   Run2:
     runs-on: ubuntu-latest
     steps:
