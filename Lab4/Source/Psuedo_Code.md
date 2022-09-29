@@ -10,7 +10,7 @@ int main() {
 
 string words;
 
-vector <string> text;
+vector <string>  text;
 
 while (cin words)
 
