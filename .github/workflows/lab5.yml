@@ -7,24 +7,27 @@ jobs:
   Run1:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
       - run: echo "Running makefile"
-      - name: create prog
-        run: g++ -o sd SumofDigits.cpp
-      - run: ./sd
+      - name: create progs
+        run: g++ -o sum SumofDigits.cpp
+      - run: ./sum
   Run2:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
         uses: actions/checkout@v3
       - run: echo "Running makefile"
       - name: create progs
-        run: g++ -o pr PrimeNumber.cpp
-      - run: ./pr
+        run: g++ -o prime PrimeNumber.cpp
+      - run: ./prime
   Run3:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
         uses: actions/checkout@v3
       - run: echo "Running makefile"
       - name: create progs
-        run: g++ -o lin LinearRegression.cpp
-      - run: ./lin
+        run: g++ -o linear LinearRegression.cpp
+      - run: ./linear
