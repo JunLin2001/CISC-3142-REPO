@@ -1,0 +1,15 @@
+name: Lab9
+on:
+  push:
+    paths:
+      - 'Lab9/**'
+jobs: 
+  Run1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - run: echo "Running makefile"
+      - name: create progs
+        run: g++ -o wea Weather.cpp
+      - run: ./wea
