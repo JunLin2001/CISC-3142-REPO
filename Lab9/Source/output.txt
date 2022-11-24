@@ -1,2 +1,30 @@
+Month  Temp
+Jan    39
+Feb    42
+Mar    50
+Apr    60
+May    71
+Jun    79
+Jul    85
+Aug    81
+Sep    76  
+
+The Average Temperature Across All Months Is 64.7778 Degrees 
+
+Your Simple Moving Average across 3 month is 43.6667 Degrees 
+Your Simple Moving Average across 3 month is 50.6667 Degrees 
+Your Simple Moving Average across 3 month is 60.3333 Degrees 
+Your Simple Moving Average across 3 month is 70 Degrees 
+Your Simple Moving Average across 3 month is 78.3333 Degrees 
+Your Simple Moving Average across 3 month is 81.6667 Degrees 
+Your Simple Moving Average across 3 month is 80.6667 Degrees 
+
+Your Weighted Moving Average across 3 month is 45.5 Degrees 
+Your Weighted Moving Average across 3 month is 53.6667 Degrees 
+Your Weighted Moving Average across 3 month is 63.8333 Degrees 
+Your Weighted Moving Average across 3 month is 73.1667 Degrees 
+Your Weighted Moving Average across 3 month is 80.6667 Degrees 
+Your Weighted Moving Average across 3 month is 82 Degrees 
+Your Weighted Moving Average across 3 month is 79.1667 Degrees 
 
 
