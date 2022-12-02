@@ -11,5 +11,5 @@ jobs:
         uses: actions/checkout@v3
       - run: echo "Running makefile"
       - name: create progs
-        run: g++ -o ex10 Excercise.cpp
+        run: g++ -o ex10 Excercise10.cpp
       - run: ./ex10
